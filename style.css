@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 92%;
+    margin: auto;
+}
+.History-pets{
+    background-color: #00CB20;
+   
+    color: #fff;
+    height: 178px;
+width: 770px;
+left: 73px;
+top: 3403px;
+border-radius: 10px;
+
+    font-size: 58px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+image{
+    max-width:  100%;
+}
+.description{
+    display: flex;
+    
+   flex-wrap: wrap;
+}
+.man-and-dog{
+    height: 369px;
+    width: 310px;
+    left: 96px;
+    top: 3680px;
+    border-radius: 40px;
+
+}
