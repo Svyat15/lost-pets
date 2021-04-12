@@ -1,0 +1,32 @@
+.container{
+    max-width: 92%;
+    margin: auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+#flex-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+#main-nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 648px;
+    list-style: none;
+}
+#main-nav ul button{
+    background: none;
+    cursor: pointer;
+    border: #00CB20 1px solid;
+}
+#main-nav ul button:focus{
+    border: none;
+    outline: none;
+    border: 2px rgb(92, 167, 17) solid;
+}
