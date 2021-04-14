@@ -10,6 +10,9 @@
 img{
     max-width: 100%;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 #flex-wrapper{
     display: flex;
     justify-content: space-between;
@@ -19,6 +22,7 @@ img{
     justify-content: space-between;
     width: 648px;
     list-style: none;
+    align-items: center;
 }
 #main-nav ul button{
     background: none;
@@ -28,5 +32,63 @@ img{
 #main-nav ul button:focus{
     border: none;
     outline: none;
-    border: 2px rgb(92, 167, 17) solid;
+    border: 1px rgb(92, 167, 17) solid;
+    outline: rgb(86, 160, 13) 2px;
+    color: rgb(81, 148, 15);
+}
+#main-nav ul button {
+    color: #00CB20;
+    padding: 18px 110px;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+#main-ul li a{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+}
+header{
+    padding-top: 41px;
+    margin-bottom: 84px;
+}
+.logo{
+    width: 225px;
+    height: 67px;
+    background-color: gray;
+}
+.status-text h1{
+    max-width: 706px;
+    font-size: 64px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+    margin-bottom: 22px;
+}
+.status-text button{
+    background: none;
+    font-size: 20px;
+    color: white;
+    background-color: #00CB20;
+    padding: 23px 99px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    
+}
+.status-text button:focus{
+    border: none;
+    outline: none;
+    
+}
+.status-block{
+    background-image: url(images/people-dog.svg);
+    background-position: right ;
+    background-repeat: no-repeat;
+    height: 653px;
+}
+.status-text{
+    padding-top: 107px;
 }
