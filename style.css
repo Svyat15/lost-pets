@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 92%;
+    margin: auto;
+}
+
+#company h1{
+    width: 443px;
+    color: #fff;
+    background-color: #00CB20;
+    border-radius: 7px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px 0 10px 0;
+}
+
+#company-info .company-img img{
+    width: 433px;
+}
+
+#company-info .company-img{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+#company-info{
+    display: flex;
+    align-items: center;
+}
+
+#company-info .company-about p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+#request{
+    display: flex;
+    justify-content: space-between;
+}
+
+#request .filing-request input{
+    background-color: #EEEEEE;
+    border-radius: 7px;
+    border: none;
+    color: #474747;
+    font-family:  'Open Sans', sans-serif;
+    width: 445px;
+}
+
+#request .filing-request .animal-name input{
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+#request .filing-request .animal-place input{
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+#request .filing-request .animal-discription input{
+    height: 225px;
+    margin-bottom: 10px;
+}
+
+#request .filing-request .animal-reward input{
+    height: 55px;
+    margin-bottom: 10px;
+}
+
+#request .filing-request .animal-number input{
+    height: 55px;
+}
+
+#request .animal-img img{
+    width: 455px;
+}
+
+#request .animal-img p{
+    color: #626262;
+    font-family:  'Open Sans', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 27px;
+    margin-top: 10px;
+}
+
+#request .request-send button{
+    background-color: #00CB20;
+    color: #FFFFFF;
+    width: 200px;
+    height: 55px;
+}
