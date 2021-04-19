@@ -5,7 +5,7 @@
 }
 
 .container{
-    width: 92%;
+    max-width: 1293px;
     margin: auto;
 }
 
@@ -41,9 +41,68 @@
     font-weight: 400;
 }
 
+#check-animal a{
+    border: 1px solid #00CB20;
+    color: #00CB20;
+    align-items: center;
+    padding: 10px 80px 10px 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin-left: 450px;
+}
+
+
+
+#flex-wrapper div{
+    display: flex;
+    justify-content: space-around;
+}
+
+#lost-pet-blocks{
+    width: 305px;
+    height: 413px;
+    border: #00CB20 1px solid;
+    border-radius: 40px;
+    box-shadow: 0px 9px 15px 1px rgba(0, 0, 0, 0.15);
+    padding: 18px 19px 18px ;
+}
+
+#place-pet{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+#place-pet{
+    font-size: 16px;
+    color: #585858;
+}
+
+#color-pet{
+    font-size: 14px;
+    color: #B8B8B8;
+}
+
+#reward-pet{
+    font-size: 24px;
+    color: #00CB20;
+    margin-top: 24px;
+}
+
+
+
+
+
+
+
+
 #request{
     display: flex;
     justify-content: space-between;
+    position: absolute;
+    margin: 300px 0 0 190px;
 }
 
 #request .filing-request input{
@@ -53,6 +112,8 @@
     color: #474747;
     font-family:  'Open Sans', sans-serif;
     width: 445px;
+    padding-left: 17px;
+    margin-left: 15px;
 }
 
 #request .filing-request .animal-name input{
@@ -68,6 +129,7 @@
 #request .filing-request .animal-discription input{
     height: 225px;
     margin-bottom: 10px;
+    padding-bottom: 180px;
 }
 
 #request .filing-request .animal-reward input{
@@ -92,9 +154,18 @@
     margin-top: 10px;
 }
 
+#request .request-send{
+    position: relative;
+}
+
 #request .request-send button{
     background-color: #00CB20;
     color: #FFFFFF;
-    width: 200px;
+    width: 445px;
     height: 55px;
+    position: absolute;
+    bottom: -25px;
+    right: 0px;
+    border: none;
+    border-radius: 10px;
 }
