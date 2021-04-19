@@ -1,5 +1,5 @@
 .container{
-    max-width: 92%;
+    max-width: 1293px;
     margin: auto;
 }
 *{
@@ -76,6 +76,8 @@ header{
     cursor: pointer;
     border: none;
     border-radius: 10px;
+    max-width: 409px;
+    display: block;
     
 }
 .status-text button:focus{
@@ -116,4 +118,88 @@ header{
     font-size: 24px;
     color: #00CB20;
     margin-top: 24px;
+}
+@media(max-width:1317px){
+    .status-block{
+        background-image: none;
+    }
+    .status-text h1{
+        margin: auto;
+        text-align: center;
+    }
+    .status-text button{
+        margin: auto;
+        margin-top: 50px;
+    }
+   
+@media(max-width:970px){
+    #flex-wrapper{
+        flex-wrap: wrap;
+        
+    }
+    #main-nav ul{
+        width: 550px;
+    }
+    #main-nav ul button{
+        padding: 15px 100px;
+        font-size: 18px;
+    }
+    #main-ul li a{
+        font-size: 19px;
+    }
+}
+@media(max-width:865px){
+    #main-nav ul{
+        width: 525px;
+    }
+    #main-nav ul button{
+        padding: 13px 95px;
+        font-size: 18px;
+    }
+    #main-ul li a{
+        font-size: 18px;
+    }
+    .status-text h1{
+        font-size: 54px;
+        max-width: 625px;
+    }
+    .status-text button{
+        max-width: 309px;
+        padding: 20px 80px;
+        font-size: 16px;
+        
+    }
+}
+@media(max-width:814px){
+    #main-nav ul{
+        width:600px;
+    }
+}
+@media(max-width:1380px){
+    .container{
+        max-width: 92%;
+    }
+}
+@media(max-width:650px){
+    #main-nav ul{
+        width:480px;
+    }
+  
+    #main-nav ul button{
+        padding: 10px 85px;
+        font-size: 16px;
+    }
+    #main-ul li a{
+        font-size: 16px;
+    }
+    .status-text h1{
+        font-size: 54px;
+        max-width: 625px;
+    }
+    .status-text button{
+        max-width: 309px;
+        padding: 20px 80px;
+        font-size: 16px;
+        
+    }
 }
