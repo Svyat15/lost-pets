@@ -82,3 +82,112 @@ footer{
     height: 285px;
     background-color:#09AB23 ;
 }
+@media( max-width : 1240px ){
+   .container{
+       max-width: 75%;
+   }
+   .info-about-pets{
+      max-width: 200px;
+   }
+    .full{
+       width: 350px;
+       height: 300px;
+       flex-wrap: nowrap;
+     
+   }
+   .name-pets-and-people {
+    width: 150px;
+    height: 34px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.description-about-pets-and-people {
+    width: 100px;
+    height: 125px;
+    font-size: 12px;
+    font-weight: 400;
+   
+}
+.data-grey {
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.man-and-dog {
+    
+    padding-left: 23px;
+    padding-bottom: 23px;
+    width: 190px;
+        margin-right: 0px;
+}
+.History-pets {
+    background-color: #00CB20;
+    font-weight: 600;
+    color: #fff;
+    height: 136px;
+    width: 735px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+    font-size: 44px;
+    padding-left: 88px;
+}
+}
+@media(max-width: 1000px){
+    .full { 
+        margin-right: 28px;
+    width: 346px;
+    margin-bottom: 28px;}
+    .name-pets-and-people{
+        font-size: 12px;
+    }
+    .description-about-pets-and-people {
+        width: 90px;
+        height: 88px;
+        font-size: 10px;
+        font-weight: 400;}
+        .full {
+            margin-right: 28px;
+            width: 310px;
+            margin-bottom: 28px;
+        }
+        .man-and-dog{
+            width: 165px;
+        }
+}
+@media(max-width: 901px)
+{
+    .description-about-pets-and-people {
+        width: 80px;
+        height: 91px;
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .name-pets-and-people {
+        width: 103px;
+        height: 31px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .man-and-dog{
+        width: 160px;
+    }
+    .full {
+        margin-right: 28px;
+        width: 284px;
+        margin-bottom: 28px;
+        height: 260px;
+    }
+    .History-pets {
+        background-color: #00CB20;
+        font-weight: 600;
+        color: #fff;
+        height: 136px;
+        width: 560px;
+        border-radius: 10px;
+        margin-bottom: 70px;
+        font-size: 38px;
+        padding-left: 51px;
+    }
+}
