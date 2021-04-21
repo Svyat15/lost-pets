@@ -9,6 +9,7 @@
     margin: auto;
 }
 .History-pets{
+    margin-top:100px;
     background-color: #00CB20;
    font-weight: 600;
     color: #fff;
@@ -190,4 +191,65 @@ footer{
         font-size: 38px;
         padding-left: 51px;
     }
+}
+@media(max-width: 835px){
+    .description {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 150px;
+    }
+    footer{
+        margin-top: 70px;
+        height : 180px;
+       
+    }
+    .History-pets{
+        padding-right: 10px;
+    }
+}
+@media(max-width: 650px){
+   footer{
+    width : 700px;
+   }
+   .History-pets {
+    background-color: #00CB20;
+    font-weight: 600;
+    color: #fff;
+    height: 136px;
+    width: 510px;
+    border-radius: 10px;
+    margin-bottom: 70px;
+    font-size: 38px;
+    padding-left: 30px;
+}
+}
+.nice-footer{
+    padding-top: 70px;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    font-weight: 400;
+}
+.data-name{
+    margin-top: 100px;
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+}
+.navi a {
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+}
+.telephone{
+    margin-right: 450px;
+    width: 200px;
+   
+}
+.navi{
+    margin-right: 550px;
+}
+.telephone a{
+    text-decoration: none;
+    color: #fff;
 }
