@@ -49,7 +49,7 @@ body{
     text-decoration: none;
     color: black;
 }
-header{
+#flex-wrapper{
     padding-top: 41px;
     margin-bottom: 84px;
 }
@@ -216,7 +216,7 @@ header{
         margin-top: 20px;
         margin: auto;
     }
-    header{
+    #flex-wrapper{
         margin-bottom: 50px;
     }
 }
@@ -313,6 +313,9 @@ header{
         font-size: 29px;
         max-width: 350px;
     }
+    #flex-wrapper{
+        margin-bottom: 35px;
+    }
 }
 @media(max-width:370px){
     #main-nav ul{
@@ -348,6 +351,9 @@ header{
     }
     #main-ul li a{
         font-size: 10px;
+    }
+    #flex-wrapper{
+        margin-bottom: 25px;
     }
 
 }
