@@ -120,6 +120,23 @@ body{
     color: #00CB20;
     margin-top: 24px;
 }
+.btn-primary{
+    color:#585858;
+    background-color:white;
+}
+.btn-primary:hover{
+    background-color:white;
+    color:#585858;
+    
+}
+.btn{
+    text-align: left;
+    
+}
+.btn p{
+    margin: 0;
+}
+
 @media(max-width:1317px){
     .status-block{
         background-image: none;
@@ -338,7 +355,7 @@ body{
         padding: 12px 35px;
         font-size: 11px;
         margin-top: 18px;
-        
+    }
     }
 @media(max-width:345px){
     #main-nav ul{
@@ -357,4 +374,3 @@ body{
     }
 
 }
-
