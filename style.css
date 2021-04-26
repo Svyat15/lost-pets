@@ -54,7 +54,7 @@ body{
     margin-bottom: 84px;
 }
 .logo{
-    width: 225px;
+   
     height: 67px;
     
 }
@@ -191,7 +191,7 @@ body{
        
     }
     .logo{
-        width: 150px;
+        width: 120px;
         height: 40px;
     }
   
@@ -240,8 +240,8 @@ body{
         margin-bottom: 40px;
     }
     .logo{
-        width: 70px;
-        height: 50px;
+      
+        height: 35px;
     }
 }
 @media(max-width:500px){
@@ -278,7 +278,7 @@ body{
         font-size: 12px;
     }
     .logo{
-        width: 50px;
+        
         height: 35px;
         margin-bottom: 10px;
     }
