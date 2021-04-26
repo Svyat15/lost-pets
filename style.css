@@ -41,24 +41,20 @@
     font-weight: 400;
 }
 
-#check-animal a{
-    border: 1px solid #00CB20;
-    color: #00CB20;
-    align-items: center;
-    padding: 10px 80px 10px 80px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    border-radius: 7px;
-    text-decoration: none;
-    margin-left: 450px;
-}
 
 
 
-#flex-wrapper div{
+
+
+
+#flex-wrapper{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header #flex-wrapper{
+    flex-wrap: nowrap;
 }
 
 #lost-pet-blocks{
@@ -68,27 +64,31 @@
     border-radius: 40px;
     box-shadow: 0px 9px 15px 1px rgba(0, 0, 0, 0.15);
     padding: 18px 19px 18px ;
+    margin-top: 15px;
 }
 
 #place-pet{
     font-size: 24px;
     font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #place-pet{
     font-size: 16px;
     color: #585858;
+    font-family: 'Open Sans', sans-serif;
 }
-
 #color-pet{
     font-size: 14px;
     color: #B8B8B8;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #reward-pet{
     font-size: 24px;
     color: #00CB20;
     margin-top: 24px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -97,8 +97,118 @@
 
 
 
+#check-animal a{
+    display: inline-block;
+    border: 1px solid #00CB20;
+    color: #00CB20;
+    align-items: center;
+    padding: 10px 80px 10px 80px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin: 45px 0 0 508px;
+}
 
-#request{
+
+
+
+@media(max-width:1024px){
+    .container{
+        max-width: 956px;
+    }
+    #check-animal a{
+        margin-left: 345px;
+    }
+
+}
+
+@media(max-width:1024px){
+    .container{
+        max-width: 705px;
+    }
+    #company-info .company-about p{
+        font-size: 25px;
+    }
+    #company-info .company-img{
+        margin-right: 40px;
+    }
+    #check-animal a{
+        margin-left: 211px;
+    }
+}
+
+@media(max-width:425px){
+    .container{
+        max-width: 400px;
+    }
+    #company-info .company-about p{
+        font-size: 17px;
+    }
+    #company-info .company-img{
+        margin-right: 10px;
+    }
+    #check-animal a{
+       margin-left: 62px;
+    }
+    #company-info .company-img img{
+        width: 310px;
+    }
+    #company h1{
+        width: 320px;
+        font-size: 19px;
+    }
+}
+
+@media(max-width:375px){
+    .container{
+        max-width: 360px;
+    }
+    #company-info .company-about p{
+        font-size: 14px;
+    }
+    #company-info .company-img{
+        margin-right: 10px;
+    }
+    #check-animal a{
+       margin-left: 42px;
+    }
+    #company-info .company-img img{
+        width: 220px;
+    }
+    #company h1{
+        width: 230px;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:320px){
+    .container{
+        max-width: 310px;
+    }
+    #company-info .company-about p{
+        font-size: 12px;
+    }
+    #company-info .company-img{
+        margin-right: 5px;
+    }
+    #check-animal a{
+       margin-left: 14px;
+    }
+    #company-info .company-img img{
+        width: 200px;
+    }
+    #company h1{
+        width: 210px;
+        font-size: 14px;
+    }
+    
+}
+
+
+
+/* #request{
     display: flex;
     justify-content: space-between;
     position: absolute;
@@ -168,4 +278,9 @@
     right: 0px;
     border: none;
     border-radius: 10px;
-}
+} */
+
+
+
+
+
