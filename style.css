@@ -48,6 +48,7 @@ h1{
     padding-left: 27px;
     margin-right: 13px;
     padding-right: 27px;
+    appearance: none;
 }
 
 footer{
@@ -97,7 +98,6 @@ footer{
 .main-nav ul{
     display: flex;
     justify-content: space-between;
-    width: 648px;
     list-style: none;
     align-items: center;
 }
@@ -107,6 +107,7 @@ footer{
     font-size: 22px;
     text-decoration: none;
     color: black;
+    margin-right: 35px;
 }
 
 header{
@@ -138,6 +139,30 @@ header{
     color: #00CB20;
 }
 
+header #flex-wrapper{
+    flex-wrap: nowrap;
+}
+
+.main-nav{
+    display: flex;
+    align-items: center;
+}
+
+select::after{
+    content: url(images/arrow.svg);
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    width: 24px;
+}
+
+.city-animal div{
+    position: relative;
+    display: inline-block;
+}
+
 @media(max-width: 1317px){
     .container{
         max-width: 92%;
@@ -159,18 +184,52 @@ header{
     }   
 }
 
-header #flex-wrapper{
-    flex-wrap: nowrap;
-}
-
-.main-nav{
-    display: flex;
-    align-items: center;
-}
 
 @media(max-width: 663px){
     .lost-pet-blocks{
         margin: auto;
-        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 788px){
+    header #flex-wrapper{
+        flex-wrap: wrap;
+    }
+
+    #flex-wrapper .logo{
+        display: block;
+        width: auto;
+    }
+}
+
+@media(max-width: 702px){
+    .new-to-old{
+        margin-top: 5px;
+    }
+}
+
+@media(max-width: 663px){
+    .city-animal select{
+        width: 89%;
+        margin-bottom: 10px;
+    } 
+}
+
+@media(max-width: 512px){
+    .main-ul li a{
+        font-size: 18px;
+    }
+}
+
+@media(max-width: 442px){
+    .main-ul li a{
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 425px){
+    #pages a{
+        font-size: 15px;
     }
 }
