@@ -8,6 +8,37 @@
     max-width: 92%;
     margin: auto;
 }
+.nice-footer{
+    padding-top: 70px;
+    color: #fff;
+    display: flex;
+    font-size: 14px;
+    font-weight: 400;
+}
+.data-name{
+    margin-top: 100px;
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+}
+.navi a {
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+}
+.telephone{
+    margin-right: 400px;
+    width: 250px;
+   
+}
+.navi{
+    margin-right: 550px;
+}
+.telephone a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .History-pets{
     margin-top:100px;
     background-color: #00CB20;
@@ -34,8 +65,10 @@ image{
     padding-top: 23px;
     padding-left: 23px;
     padding-bottom: 23px;
-    width: 240px;
+    width: 230px;
+ height: 260px;
     margin-right: 23px;
+    border-radius: 48px;
 }
 .name-pets-and-people{
     width: 256px;
@@ -134,8 +167,56 @@ footer{
     font-size: 44px;
     padding-left: 88px;
 }
+
+@media(max-width: 1260px){
+    .nice-footer{
+        padding-top: 50px;
+        color: #fff;
+        display: flex;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .data-name{
+        margin-top: 50px;
+        color: #fff;
+        text-align: left;
+        font-size: 10px;
+    }
+    .navi a {
+        font-weight: 400;
+        text-decoration: none;
+        color: #fff;
+    }
+    .telephone{
+        margin-right: 300px;
+    width: 150px;
+       
+    }
+    .navi{
+        margin-right: 300px;
+    }
+    .telephone a{
+        text-decoration: none;
+        color: #fff;
+    }
+    
 }
-@media(max-width: 1000px){
+@media(max-width: 1040px){
+    .nice-footer{
+        padding-top: 50px;
+        color: #fff;
+        display: flex;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .navi{
+        margin-right: 150px;
+    }
+    .telephone{
+        margin-right: 150px;
+    width: 150px;
+       
+    }
     .full { 
         margin-right: 28px;
     width: 346px;
@@ -220,36 +301,4 @@ footer{
     border-radius: 10px;
     margin-bottom: 70px;
     font-size: 38px;
-    padding-left: 30px;
-}
-}
-.nice-footer{
-    padding-top: 70px;
-    color: #fff;
-    display: flex;
-    font-size: 20px;
-    font-weight: 400;
-}
-.data-name{
-    margin-top: 100px;
-    color: #fff;
-    text-align: left;
-    font-size: 14px;
-}
-.navi a {
-    font-weight: 400;
-    text-decoration: none;
-    color: #fff;
-}
-.telephone{
-    margin-right: 450px;
-    width: 200px;
-   
-}
-.navi{
-    margin-right: 550px;
-}
-.telephone a{
-    text-decoration: none;
-    color: #fff;
-}
+    padding-left: 30px;}
