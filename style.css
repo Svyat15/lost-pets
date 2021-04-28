@@ -136,7 +136,79 @@ body{
 .btn p{
     margin: 0;
 }
+.btn-close{
+    background: url(images/cross.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:right ;
+   
+    width: 30px;
+    height: 23px;
+}
 
+.modal-header{
+    justify-content: flex-end;
+    border: none;
+}
+.modal-footer{
+    border: none;
+}
+.modal-header .btn-close{
+    margin: 0;
+    padding: 0;
+}
+.block-button{
+    color: #404040;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.litle-grey-text{
+    color:#585858;
+    margin-bottom: 15px;
+    
+}
+.green-h2{
+    color: #00CB20;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+span{
+    color: #000;
+}
+.labrador-size{
+    font-size: 24px;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+.sharik-size{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+.image-for-block{
+    border-radius: 40px;
+    width: 329px;
+height: 380px;
+}
+.i-see-your-dog{
+    padding: 18px 80px;
+    background-color: #00CB20;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    max-height: 350px;
+}
+.text-for-block{
+    margin-left: 15px;
+}
+.gog{
+    margin-bottom: 22px;
+}
+@media (min-width: 576px){
+    .modal-dialog{
+        max-width:700px;
+    }
+}
 @media(max-width:1317px){
     .status-block{
         background-image: none;
@@ -356,7 +428,7 @@ body{
         font-size: 11px;
         margin-top: 18px;
     }
-    }
+}
 @media(max-width:345px){
     #main-nav ul{
         width:300px;
@@ -372,5 +444,4 @@ body{
     #flex-wrapper{
         margin-bottom: 25px;
     }
-
 }
