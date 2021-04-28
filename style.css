@@ -118,7 +118,7 @@ footer{
 }
 @media( max-width : 1240px ){
    .container{
-       max-width: 75%;
+       max-width: 92%;
    }
    .info-about-pets{
       max-width: 200px;
@@ -302,3 +302,18 @@ footer{
     margin-bottom: 70px;
     font-size: 38px;
     padding-left: 30px;}
+    .man-and-dog{
+        padding-top: 23px;
+        padding-left: 23px;
+        padding-bottom: 23px;
+        width: 230px;
+     height: 260px;
+        margin-right: 23px;
+        border-radius: 48px;
+    }
+     .full {
+        margin-right: 28px;
+        width: 400px;
+        margin-bottom: 28px;
+        height: 260px;
+    }
