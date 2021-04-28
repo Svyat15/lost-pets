@@ -31,7 +31,7 @@ body{
     border-radius: 10px;
     padding-top: 13px;
     padding-left: 22px;
-    margin-right: 25px;
+    margin-right: 14px;
 }
 
 h1{
@@ -148,12 +148,12 @@ header #flex-wrapper{
     align-items: center;
 }
 
-select::after{
+.city-animal div::after{
     content: url(images/arrow.svg);
     pointer-events: none;
     position: absolute;
-    right: 0;
-    top: 0;
+    right: 21px;
+    top: 13px;
     display: inline-block;
     width: 24px;
 }
@@ -180,10 +180,12 @@ select::after{
         width: 55%;
     }
     .city-animal select{
-        width: 45%;
-    }   
+        width: 100%;
+    }
+    .city-animal div:last-child select{
+        padding-right: 38px;
+    }      
 }
-
 
 @media(max-width: 663px){
     .lost-pet-blocks{
@@ -226,10 +228,24 @@ select::after{
     .main-ul li a{
         font-size: 10px;
     }
+    .logo{
+        height: 41px;
+    }
 }
 
 @media(max-width: 425px){
     #pages a{
         font-size: 15px;
+    }
+    .city-animal select{
+        width: 266px;
+    }
+    #flex-wrapper{
+        justify-content: center;
+    }
+    .city-animal{
+        display: flex;
+        flex-direction: column;
+        width: auto;
     }
 }
