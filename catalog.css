@@ -66,7 +66,6 @@ footer{
 
 .lost-pet-blocks{
     width: 305px;
-    height: 413px;
     border: #00CB20 1px solid;
     border-radius: 40px;
     box-shadow: 0px 9px 15px 1px rgba(0, 0, 0, 0.15);
@@ -163,6 +162,153 @@ header #flex-wrapper{
     display: inline-block;
 }
 
+.bth.btn-primary{
+    color:#585858;
+    background-color: white;
+    border: none;
+}
+
+.bth.btn-primary:hover{
+    background-color:white;
+    color:#585858;
+    border: none;
+}
+
+.btn{
+    text-align: left;
+}
+
+.btn:hover{
+    border: none;
+    outline: none;
+}
+
+.btn:focus{
+    border: none;
+    outline: none;
+}
+
+.btn p{
+    margin: 0;
+}
+
+.btn-close{
+    background: url(images/cross.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:right ;
+    width: 30px;
+    height: 23px;
+}
+
+.modal-header{
+    justify-content: flex-end;
+    border: none;
+}
+
+.modal-footer{
+    border: none;
+}
+
+.modal-header .btn-close{
+    margin: 0;
+    padding: 0;
+}
+
+.block-button{
+    color: #404040;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.litle-grey-text{
+    color:#585858;
+    margin-bottom: 15px;
+    
+}
+
+.green-h2{
+    color: #00CB20;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.green-h2 span{
+    color: #000;
+}
+
+.labrador-size{
+    font-size: 24px;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.sharik-size{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.image-for-block{
+    
+    width: 329px;
+    height: 380px;
+}
+
+.i-see-your-dog{
+    padding: 13px 80px;
+    background-color: #00CB20;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    font-size: 22px;
+    max-height: 350px;
+}
+
+.modal-dialog{
+    max-width: 850px;
+}
+
+.gog{
+    margin-bottom: 22px;
+}
+
+.block-button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal-content{
+    width: 850px;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+
+.modal-body{
+    padding-left: 40px;
+    padding-right:40px ;
+}
+
+.labrador-size{
+    max-width: 300px;
+    font-size: 20px;
+}
+
+.image-for-block{
+    width: 400px;
+    height: 400px;
+    border-radius: 40px;
+}
+
+.btn-close:hover{
+    border: none;
+    outline: none;
+}
+
+.btn-close:focus{
+    border: none;
+    outline: none;
+}
+
 @media(max-width: 1317px){
     .container{
         max-width: 92%;
@@ -249,3 +395,10 @@ header #flex-wrapper{
         width: auto;
     }
 }
+
+@media(max-width: 364px){
+    .main-ul li a{
+        font-size: 9px;
+    }
+}
+
