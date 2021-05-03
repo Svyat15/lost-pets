@@ -9,6 +9,7 @@
     margin: auto;
 }
 
+
 #company h1{
     width: 443px;
     color: #fff;
@@ -124,7 +125,7 @@ header #flex-wrapper{
 
 }
 
-@media(max-width:1024px){
+@media(max-width:768px){
     .container{
         max-width: 705px;
     }
@@ -208,11 +209,23 @@ header #flex-wrapper{
 
 
 
-/* #request{
+
+
+
+
+
+
+
+
+
+
+
+
+#request{
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    margin: 300px 0 0 190px;
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 #request .filing-request input{
@@ -278,7 +291,7 @@ header #flex-wrapper{
     right: 0px;
     border: none;
     border-radius: 10px;
-} */
+}
 
 
 
