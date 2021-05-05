@@ -65,7 +65,7 @@ footer{
 }
 
 .lost-pet-blocks{
-    width: 305px;
+    width: 24%;
     border: #00CB20 1px solid;
     border-radius: 40px;
     box-shadow: 0px 9px 15px 1px rgba(0, 0, 0, 0.15);
@@ -89,7 +89,7 @@ footer{
 }
 
 .reward-pet{
-    font-size: 24px;
+    font-size: 23px;
     color: #00CB20;
     margin-top: 24px;
 }
@@ -99,6 +99,7 @@ footer{
     justify-content: space-between;
     list-style: none;
     align-items: center;
+    padding-left: 0;
 }
 
 
@@ -299,19 +300,28 @@ header #flex-wrapper{
     border-radius: 40px;
 }
 
-.btn-close:hover{
+.btn-close:hover, .btn-close:focus, .btn-close:active, .btn:focus, .btn:hover, .btn:active, [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled){
     border: none;
     outline: none;
+    box-shadow: none;
 }
 
-.btn-close:focus{
-    border: none;
-    outline: none;
+.lost-pet-blocks button{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 @media(max-width: 1317px){
     .container{
         max-width: 92%;
+    }
+}
+
+@media(max-width: 1041px){
+    .lost-pet-blocks{
+        width: 32%;
     }
 }
 
@@ -325,18 +335,25 @@ header #flex-wrapper{
     .city-animal{
         width: 55%;
     }
+
     .city-animal select{
         width: 100%;
     }
+
     .city-animal div:last-child select{
         padding-right: 38px;
-    }      
+    }   
+    
+    .lost-pet-blocks{
+        width: 45%;
+    }
 }
 
 @media(max-width: 663px){
     .lost-pet-blocks{
         margin: auto;
         margin-top: 20px;
+        width: 83%;
     }
 }
 
@@ -361,7 +378,15 @@ header #flex-wrapper{
     .city-animal select{
         width: 89%;
         margin-bottom: 10px;
-    } 
+    }
+
+    .lost-pet-blocks button{
+        display: inline-block;
+    }
+
+    .lost-pet-blocks{
+       text-align: center;
+    }
 }
 
 @media(max-width: 512px){
@@ -372,7 +397,7 @@ header #flex-wrapper{
 
 @media(max-width: 442px){
     .main-ul li a{
-        font-size: 10px;
+        font-size: 9px;
     }
     .logo{
         height: 41px;
@@ -397,8 +422,19 @@ header #flex-wrapper{
 }
 
 @media(max-width: 364px){
-    .main-ul li a{
-        font-size: 9px;
+    .lost-pet-blocks{
+        width: 95%;
     }
 }
 
+@media(max-width: 375px){
+    .lost-pet-blocks{
+        width: 95%;
+    }
+}
+
+@media(max-width: 357px){
+    .logo{
+        margin-bottom: 20px;
+    }
+}
