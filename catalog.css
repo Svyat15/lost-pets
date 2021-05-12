@@ -256,7 +256,7 @@ header #flex-wrapper{
 }
 
 .i-see-your-dog{
-    padding: 13px 80px;
+    width: 100%;
     background-color: #00CB20;
     border-radius: 15px;
     border: none;
@@ -279,7 +279,7 @@ header #flex-wrapper{
 }
 
 .modal-content{
-    width: 850px;
+    width: 100%;
     border-radius: 10px;
     padding-bottom: 30px;
 }
@@ -349,6 +349,13 @@ header #flex-wrapper{
     }
 }
 
+@media(max-width: 811px){
+    .green-h2{
+        font-size: 20px;
+    }
+}
+
+
 @media(max-width: 663px){
     .lost-pet-blocks{
         margin: auto;
@@ -365,6 +372,16 @@ header #flex-wrapper{
     #flex-wrapper .logo{
         display: block;
         width: auto;
+    }
+}
+
+@media(max-width: 730px){
+    .image-for-block{
+        display: none;
+    }
+
+    .text-for-block{
+        margin: auto;
     }
 }
 
@@ -427,6 +444,20 @@ header #flex-wrapper{
     }
 }
 
+@media(max-width: 373px){
+    .green-h2{
+        font-size: 15px;
+    }
+    
+    .litle-grey-text{
+        font-size: 14px;
+    }
+
+    .labrador-size{
+        font-size: 17px;
+    }
+}
+
 @media(max-width: 375px){
     .lost-pet-blocks{
         width: 95%;
@@ -438,3 +469,4 @@ header #flex-wrapper{
         margin-bottom: 20px;
     }
 }
+
