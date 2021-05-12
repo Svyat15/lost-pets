@@ -213,19 +213,10 @@ header #flex-wrapper{
 
 
 
-
-
-
-
-
-
-
-
 #request{
     display: flex;
     justify-content: space-between;
     background-color: #fff;
-    border-radius: 10px;
 }
 
 #request .filing-request input{
@@ -266,6 +257,7 @@ header #flex-wrapper{
 
 #request .animal-img img{
     width: 455px;
+    margin-left: 68px;
 }
 
 #request .animal-img p{
@@ -293,7 +285,156 @@ header #flex-wrapper{
     border-radius: 10px;
 }
 
+#request .animal-img{
+    width: 50%;
+}
 
+#request .filing-request{
+    width: 50%;
+}
+
+.btn-primarys{
+    background-color: #00CB20;
+    color: #FFFFFF;
+    width: 445px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    margin-right: 125px;
+}
+
+.modal-dialog{
+    max-width: 1200px;
+}
+
+.btn-close{
+    background: transparent url(images/button-close.png);
+    background-size: contain;
+}
+
+
+
+
+@media(max-width:1024px){
+    .container{
+        max-width: 956px;
+    }
+    #request .animal-img img{
+        margin-left: 20px;
+        width: 380px;
+    }
+    #request .animal-img p{
+        font-size: 23px;
+    }
+    #request .filing-request input{
+        width: 380px;
+    }
+    .btn-primarys{
+        width: 380px;
+        margin-right: 35px;
+    }
+    .modal-dialog{
+        max-width: 900px;
+    }
+}
+
+@media(max-width:768px){
+    .container{
+        max-width: 705px;
+    }
+    #request .animal-img img{
+        margin-left: 20px;
+        width: 270px;
+    }
+    #request .animal-img p{
+        font-size: 18px;
+    }
+    #request .filing-request input{
+        width: 250px;
+    }
+    .btn-primarys{
+        width: 250px;
+        margin-right: 200px;
+    }
+    .modal-dialog{
+        max-width: 650px;
+    }
+}
+
+@media(max-width:425px){
+    .container{
+        max-width: 400px;
+    }
+    #request{
+        flex-direction: column;
+    }
+    #request .animal-img img{
+        width: 280px;
+    }
+    #request .animal-img{
+        width: 100%;
+    }
+    #request .animal-img p{
+        font-size: 15px;
+    }
+    #request .filing-request input{
+        width: 280px;
+    }
+    .btn-primarys{
+        width: 150px;
+        margin-right: 90px;
+    }
+    .modal-dialog{
+        max-width: 350px;
+        margin-left: 45px;
+    }
+}
+
+@media(max-width:375px){
+    .container{
+        max-width: 360px;
+    }
+    #request .animal-img img{
+        width: 250px;
+    }
+    #request .animal-img p{
+        font-size: 14px;
+    }
+    #request .filing-request input{
+        width: 260px;
+    }
+    .btn-primarys{
+        width: 120px;
+        margin-right: 85px;
+    }
+    .modal-dialog{
+        max-width: 320px;
+        margin-left: 30px;
+    }
+}
+
+@media(max-width:320px){
+    .container{
+        max-width: 310px;
+    }
+    #request .animal-img img{
+        width: 220px;
+    }
+    #request .animal-img p{
+        font-size: 13px;
+    }
+    #request .filing-request input{
+        width: 240px;
+    }
+    .btn-primarys{
+        width: 120px;
+        margin-right: 72px;
+    }
+    .modal-dialog{
+        max-width: 290px;
+        margin-left: 19px;
+    }
+}
 
 
 
