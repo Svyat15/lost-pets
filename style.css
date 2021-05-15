@@ -317,6 +317,7 @@ body{
 .telephone a{
     text-decoration: none;
     color: #fff;
+    font-size: 11px;
 }
 
 .History-pets{
@@ -331,7 +332,7 @@ body{
        border-radius: 10px;
     margin-bottom: 98px;
     font-size: 50px;
-   padding: auto;
+    padding-top: 28px;
    padding-left: 26px;
 }
 image{
@@ -343,12 +344,9 @@ image{
 }
 .man-and-dog{
     padding-top: 23px;
-    padding-left: 23px;
-    padding-bottom: 23px;
-    
-    width: 230px;
+    padding-left: 23px;   
+    width: 264px;
     height: 260px;
-    margin-right: 23px;
     border-radius: 48px;
 }
 .name-pets-and-people{
@@ -362,6 +360,7 @@ image{
     height: 125px;
     font-size: 18px;
     font-weight: 400;
+    
 }
 .image-pets-history{
     
@@ -403,7 +402,12 @@ footer{
     .modal-dialog{
         max-width:700px;
     }
+   
 }
+@media(max-width:1380px){
+    .container{
+        max-width: 92%;
+    }
 @media(max-width:1317px){
     .status-block{
         background-image: none;
@@ -416,7 +420,75 @@ footer{
         margin: auto;
         margin-top: 50px;
     }
-   
+}
+@media(max-width: 1260px){
+    .nice-footer{
+        padding-top: 50px;
+        color: #fff;
+        display: flex;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .data-name{
+        margin-top: 50px;
+        color: #fff;
+        text-align: left;
+        font-size: 10px;
+    }
+    .navi a {
+        font-weight: 400;
+        text-decoration: none;
+        color: #fff;
+    }
+    .telephone{
+        margin-right: 300px;
+    width: 150px;
+
+    }
+    .navi{
+        margin-right: 300px;
+    }
+    .telephone a{
+        text-decoration: none;
+        color: #fff;
+    }
+
+}
+@media(max-width: 1040px){
+    .nice-footer{
+        padding-top: 50px;
+        color: #fff;
+        display: flex;
+        font-size: 10px;
+        font-weight: 400;
+    }
+    .navi{
+        margin-right: 150px;
+    }
+    .telephone{
+        margin-right: 150px;
+    width: 150px;
+
+    }
+    .full { 
+        margin-right: 28px;
+        width: 480px;
+    margin-bottom: 28px;}
+    .name-pets-and-people{
+        font-size: 13px;
+        height: 20px;
+    }
+    .description-about-pets-and-people {
+        width: 90px;
+        height: 120px;
+        font-size: 11px;
+        font-weight: 400;}
+       
+        .man-and-dog{
+            width: 199px;
+            height: 230px;
+        }
+}
 @media(max-width:970px){
     #flex-wrapper{
         flex-wrap: wrap;
@@ -431,6 +503,41 @@ footer{
     }
     #main-ul li a{
         font-size: 19px;
+    }
+}
+@media(max-width: 901px)
+{
+    .description-about-pets-and-people {
+        width: 80px;
+        height: 91px;
+        font-size: 9px;
+        font-weight: 400;
+    }
+    .name-pets-and-people {
+        width: 103px;
+        height: 31px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .man-and-dog {
+        width: 190px;
+    }
+    .full {
+        margin-right: 28px;
+        width: 400px;
+        margin-bottom: 28px;
+        height: 260px;
+    }
+    .History-pets {
+        background-color: #00CB20;
+        font-weight: 600;
+        color: #fff;
+        height: 136px;
+        width: 560px;
+        border-radius: 10px;
+        margin-bottom: 70px;
+        font-size: 38px;
+        padding-left: 51px;
     }
 }
 @media(max-width:865px){
@@ -455,6 +562,21 @@ footer{
         
     }
 }
+@media(max-width: 835px){
+    .description {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+    }
+    footer{
+        margin-top: 70px;
+        height : 180px;
+       
+    }
+    .History-pets{
+        padding-right: 10px;
+    }
+}
 @media(max-width:825px){
     #main-nav ul{
         width:600px;
@@ -464,10 +586,7 @@ footer{
         height:50px ;
     }
 }
-@media(max-width:1380px){
-    .container{
-        max-width: 92%;
-    }
+
 }
 @media(max-width:650px){
     #main-nav ul{
@@ -503,7 +622,21 @@ footer{
     #flex-wrapper{
         margin-bottom: 50px;
     }
+    footer{
+        width : 700px;
+       }
+       .History-pets {
+        background-color: #00CB20;
+        font-weight: 600;
+        color: #fff;
+        height: 136px;
+        width: 510px;
+        border-radius: 10px;
+        margin-bottom: 70px;
+        font-size: 38px;
+        padding-left: 30px;}
 }
+
 @media(max-width:568px){
     .status-text h1{
         font-size: 42px;
@@ -527,6 +660,10 @@ footer{
       
         height: 35px;
     }
+    .description {
+        display: flex;
+        flex-wrap: wrap;
+         margin-left: 0px;
 }
 @media(max-width:500px){
     .status-text h1{
@@ -576,6 +713,27 @@ footer{
         width:370px;
        
     }
+    .description-about-pets-and-people {
+        width: 60px;
+        height: 91px;
+        font-size: 8px;
+        font-weight: 400;
+    }
+        .name-pets-and-people {
+            width: 83px;
+            height: 31px;
+            font-size: 10px;
+            font-weight: 600;
+        }
+        .data-grey {
+            padding-top: 20px;
+            color: rgba(0, 0, 0, 0.6);
+            font-size: 9px;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+}
+.man-and-dog {
+    width: 120px;
 }
 @media(max-width:400px){
     #main-nav ul{
