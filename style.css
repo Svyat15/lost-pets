@@ -1,42 +1,50 @@
-.container{
+.container {
     max-width: 1293px;
     margin: auto;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-img{
+
+img {
     max-width: 100%;
     max-height: 100%;
 }
-body{
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
-#flex-wrapper{
+
+#flex-wrapper {
     display: flex;
     justify-content: space-between;
 }
-#main-nav ul{
+
+#main-nav ul {
     display: flex;
     justify-content: space-between;
     width: 648px;
     list-style: none;
     align-items: center;
 }
-#main-nav ul button{
+
+#main-nav ul button {
     background: none;
     cursor: pointer;
     border: #00CB20 1px solid;
 }
-#main-nav ul button:focus{
+
+#main-nav ul button:focus {
     border: none;
     outline: none;
     border: 1px rgb(92, 167, 17) solid;
     outline: rgb(86, 160, 13) 2px;
     color: rgb(81, 148, 15);
 }
+
 #main-nav ul button {
     color: #00CB20;
     padding: 18px 110px;
@@ -44,21 +52,23 @@ body{
     font-weight: 300;
     border-radius: 10px;
 }
-#main-ul li a{
+
+#main-ul li a {
     font-size: 22px;
     text-decoration: none;
     color: black;
 }
-#flex-wrapper{
+
+#flex-wrapper {
     padding-top: 41px;
     margin-bottom: 84px;
 }
-.logo{
-   
+
+.logo {
     height: 67px;
-    
 }
-.status-text h1{
+
+.status-text h1 {
     max-width: 706px;
     font-size: 64px;
     font-weight: 700;
@@ -68,7 +78,8 @@ body{
     line-height: 100%;
     margin-bottom: 22px;
 }
-.i-lost-pet{
+
+.i-lost-pet {
     background: none;
     font-size: 20px;
     color: white;
@@ -79,98 +90,115 @@ body{
     border-radius: 10px;
     max-width: 409px;
     display: block;
-    
 }
-.status-text button:focus{
+
+.status-text button:focus {
     border: none;
     outline: none;
-    
 }
-.status-block{
+
+.status-block {
     background-image: url(images/people-dog.svg);
-    background-position: right ;
+    background-position: right;
     background-repeat: no-repeat;
     height: 653px;
 }
-.status-text{
+
+.status-text {
     padding-top: 107px;
 }
-#lost-pet-blocks{
+
+#lost-pet-blocks {
     width: 305px;
     height: 413px;
     border: #00CB20 1px solid;
     border-radius: 40px;
     box-shadow: 0px 9px 15px 1px rgba(0, 0, 0, 0.15);
-    padding: 18px 19px 18px ;
+    padding: 18px 19px 18px;
 }
-#place-pet{
+
+#place-pet {
     font-size: 24px;
     font-weight: 600;
 }
-#place-pet{
+
+#place-pet {
     font-size: 16px;
     color: #585858;
 }
-#color-pet{
+
+#color-pet {
     font-size: 14px;
     color: #B8B8B8;
 }
-#reward-pet{
+
+#reward-pet {
     font-size: 24px;
     color: #00CB20;
     margin-top: 24px;
 }
-#request{
+
+#request {
     display: flex;
     justify-content: space-between;
     position: absolute;
     margin: 300px 0 0 190px;
 }
-#request .filing-request input{
+
+#request .filing-request input {
     background-color: #EEEEEE;
     border-radius: 7px;
     border: none;
     color: #474747;
-    font-family:  'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     width: 445px;
     padding-left: 17px;
     margin-left: 15px;
 }
-#request .filing-request .animal-name input{
+
+#request .filing-request .animal-name input {
     height: 55px;
     margin-bottom: 10px;
 }
-#request .filing-request .animal-place input{
+
+#request .filing-request .animal-place input {
     height: 55px;
     margin-bottom: 10px;
 }
-#request .filing-request .animal-discription input{
+
+#request .filing-request .animal-discription input {
     height: 225px;
     margin-bottom: 10px;
     padding-bottom: 180px;
 }
-#request .filing-request .animal-reward input{
+
+#request .filing-request .animal-reward input {
     height: 55px;
     margin-bottom: 10px;
 }
-#request .filing-request .animal-number input{
+
+#request .filing-request .animal-number input {
     height: 55px;
 }
-#request .animal-img img{
+
+#request .animal-img img {
     width: 455px;
 }
-#request .animal-img p{
+
+#request .animal-img p {
     color: #626262;
-    font-family:  'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     text-align: center;
     font-size: 27px;
     margin-top: 10px;
 }
-#request .request-send{
+
+#request .request-send {
     position: relative;
 }
-#request .request-send button{
+
+#request .request-send button {
     background-color: #00CB20;
     color: #FFFFFF;
     width: 445px;
@@ -181,76 +209,86 @@ body{
     border: none;
     border-radius: 10px;
 }
-.btn-primary{
-    color:#585858;
-    background-color:white;
+
+.btn-primary {
+    color: #585858;
+    background-color: white;
 }
-.btn-primary:hover{
-    background-color:white;
-    color:#585858;
-    
+
+.btn-primary:hover {
+    background-color: white;
+    color: #585858;
 }
-.btn{
+
+.btn {
     text-align: left;
-    
 }
-.btn p{
+
+.btn p {
     margin: 0;
 }
-.btn-close{
+
+.btn-close {
     background: url(images/cross.svg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position:right ;
-   
+    background-position: right;
     width: 30px;
     height: 23px;
 }
 
-.modal-header{
+.modal-header {
     justify-content: flex-end;
     border: none;
 }
-.modal-footer{
+
+.modal-footer {
     border: none;
 }
-.modal-header .btn-close{
+
+.modal-header .btn-close {
     margin: 0;
     padding: 0;
 }
-.block-button{
+
+.block-button {
     color: #404040;
     display: flex;
     flex-wrap: nowrap;
 }
-.litle-grey-text{
-    color:#585858;
+
+.litle-grey-text {
+    color: #585858;
     margin-bottom: 15px;
-    
 }
-.green-h2{
+
+.green-h2 {
     color: #00CB20;
     font-size: 24px;
     margin-bottom: 15px;
 }
-.green-h2 span{
+
+.green-h2 span {
     color: #000;
 }
-.labrador-size{
+
+.labrador-size {
     font-size: 24px;
     max-width: 300px;
     margin-bottom: 10px;
 }
-.sharik-size{
+
+.sharik-size {
     font-size: 36px;
     margin-bottom: 5px;
 }
-.image-for-block{
-    
+
+.image-for-block {
     width: 329px;
     height: 380px;
 }
-.i-see-your-dog{
+
+.i-see-your-dog {
     padding: 13px 80px;
     background-color: #00CB20;
     border-radius: 15px;
@@ -260,542 +298,590 @@ body{
     max-height: 350px;
 }
 
-.gog{
+.gog {
     margin-bottom: 22px;
 }
-.block-button{
+
+.block-button {
     display: flex;
     justify-content: space-around;
 }
-.modal-content{
+
+.modal-content {
     width: 850px;
     border-radius: 10px;
     padding-bottom: 30px;
 }
-.modal-body{
+
+.modal-body {
     padding-left: 40px;
-    padding-right:40px ;
+    padding-right: 40px;
 }
-.labrador-size{
+
+.labrador-size {
     max-width: 300px;
     font-size: 20px;
 }
-.image-for-block{
+
+.image-for-block {
     width: 370px;
     height: 400px;
     border-radius: 40px;
 }
-.request{
+
+.request {
     background-color: white;
 }
-.nice-footer{
+
+.nice-footer {
     padding-top: 70px;
     color: #fff;
     display: flex;
     font-size: 14px;
     font-weight: 400;
 }
-.data-name{
+
+.data-name {
     margin-top: 100px;
     color: #fff;
     text-align: left;
     font-size: 14px;
 }
+
 .navi a {
     font-weight: 400;
     text-decoration: none;
     color: #fff;
 }
-.telephone{
+
+.telephone {
     margin-right: 400px;
     width: 250px;
-
 }
-.navi{
+
+.navi {
     margin-right: 550px;
 }
-.telephone a{
+
+.telephone a {
     text-decoration: none;
     color: #fff;
-    font-size: 11px;
+    
+}
+.telephone p{
+    margin-bottom: 0;
 }
 
-.History-pets{
-    margin-top:100px;
+.history-pets {
+    margin-top: 100px;
     background-color: #00CB20;
-   font-weight: 600;
+    font-weight: 600;
     color: #fff;
-    height: 178px;
-      width: 770px;
-      left: 73px;
-       top: 3403px;
-       border-radius: 10px;
+   
+    max-width: 770px;
+    padding-bottom: 20px;
+    border-radius: 10px;
     margin-bottom: 98px;
     font-size: 50px;
     padding-top: 28px;
-   padding-left: 26px;
+    padding-left: 26px;
 }
-image{
-    width:  100%;
+
+image {
+    width: 100%;
 }
-.description{
+
+.description {
     display: flex;
     flex-wrap: wrap;
 }
-.man-and-dog{
+
+.man-and-dog {
     padding-top: 23px;
-    padding-left: 23px;   
+    padding-left: 23px;
     width: 264px;
     height: 260px;
     border-radius: 48px;
 }
-.name-pets-and-people{
+
+.name-pets-and-people {
     width: 256px;
     height: 34px;
     font-size: 25px;
     font-weight: 600;
 }
-.description-about-pets-and-people{
+
+.description-about-pets-and-people {
     width: 254px;
     height: 125px;
     font-size: 18px;
     font-weight: 400;
-    
 }
-.image-pets-history{
-    
+
+.image-pets-history {
     margin-right: 25px;
     margin-bottom: 25px;
 }
-.data-grey{
-    padding-top: 50px;
+
+.data-grey {
+    /* padding-top: 50px; */
     color: rgba(0, 0, 0, 0.6);
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
 }
-.full{
+
+.full {
     background-color: #fff;
     box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.15);
     display: flex;
     width: 545px;
     height: 300px;
-   margin-right: 25px;
-   flex-wrap: wrap;
-   margin-bottom: 25px;
-   border-radius: 40px;
+    margin-right: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+    border-radius: 40px;
 }
-.info-about-pets{
+
+.info-about-pets {
     padding-top: 46px;
-   
 }
-.data-grey{
+
+.data-grey {
     padding-top: 0px;
 }
-footer{
+
+footer {
     margin-top: 182px;
-    width: 100% ;
+    width: 100%;
     height: 285px;
-    background-color:#09AB23 ;
+    background-color: #09AB23;
 }
-@media (min-width: 576px){
-    .modal-dialog{
-        max-width:700px;
-    }
-   
-}
-@media(max-width:1380px){
-    .container{
+
+@media(max-width:1380px) {
+    .container {
         max-width: 92%;
     }
-@media(max-width:1317px){
-    .status-block{
-        background-image: none;
-    }
-    .status-text h1{
-        margin: auto;
-        text-align: center;
-    }
-    .i-lost-pet {
-        margin: auto;
-        margin-top: 50px;
-    }
 }
-@media(max-width: 1260px){
-    .nice-footer{
-        padding-top: 50px;
-        color: #fff;
-        display: flex;
-        font-size: 12px;
-        font-weight: 400;
-    }
-    .data-name{
-        margin-top: 50px;
-        color: #fff;
-        text-align: left;
-        font-size: 10px;
-    }
-    .navi a {
-        font-weight: 400;
-        text-decoration: none;
-        color: #fff;
-    }
-    .telephone{
-        margin-right: 300px;
-    width: 150px;
-
-    }
-    .navi{
-        margin-right: 300px;
-    }
-    .telephone a{
-        text-decoration: none;
-        color: #fff;
-    }
-
-}
-@media(max-width: 1040px){
-    .nice-footer{
-        padding-top: 50px;
-        color: #fff;
-        display: flex;
-        font-size: 10px;
-        font-weight: 400;
-    }
-    .navi{
-        margin-right: 150px;
-    }
-    .telephone{
-        margin-right: 150px;
-    width: 150px;
-
-    }
-    .full { 
-        margin-right: 28px;
-        width: 480px;
-    margin-bottom: 28px;}
-    .name-pets-and-people{
-        font-size: 13px;
-        height: 20px;
-    }
-    .description-about-pets-and-people {
-        width: 90px;
-        height: 120px;
-        font-size: 11px;
-        font-weight: 400;}
-       
-        .man-and-dog{
-            width: 199px;
-            height: 230px;
+@media(max-width:1317px) {
+        .status-block {
+            background-image: none;
         }
-}
-@media(max-width:970px){
-    #flex-wrapper{
-        flex-wrap: wrap;
-        
+        .status-text h1 {
+            margin: auto;
+            text-align: center;
+        }
+        .i-lost-pet {
+            margin: auto;
+            margin-top: 50px;
+        }
     }
-    #main-nav ul{
-        width: 550px;
-    }
-    #main-nav ul button{
-        padding: 15px 100px;
-        font-size: 18px;
-    }
-    #main-ul li a{
-        font-size: 19px;
-    }
-}
-@media(max-width: 901px)
-{
-    .description-about-pets-and-people {
-        width: 80px;
-        height: 91px;
-        font-size: 9px;
-        font-weight: 400;
-    }
-    .name-pets-and-people {
-        width: 103px;
-        height: 31px;
-        font-size: 11px;
-        font-weight: 600;
-    }
-    .man-and-dog {
-        width: 190px;
-    }
-    .full {
-        margin-right: 28px;
-        width: 400px;
-        margin-bottom: 28px;
-        height: 260px;
-    }
-    .History-pets {
-        background-color: #00CB20;
-        font-weight: 600;
-        color: #fff;
-        height: 136px;
-        width: 560px;
-        border-radius: 10px;
-        margin-bottom: 70px;
-        font-size: 38px;
-        padding-left: 51px;
-    }
-}
-@media(max-width:865px){
-    #main-nav ul{
-        width: 525px;
-    }
-    #main-nav ul button{
-        padding: 13px 95px;
-        font-size: 18px;
-    }
-    #main-ul li a{
-        font-size: 18px;
-    }
-    .status-text h1{
-        font-size: 54px;
-        max-width: 625px;
-    }
-    .i-lost-pet {
-        max-width: 309px;
-        padding: 20px 80px;
-        font-size: 16px;
-        
-    }
-}
-@media(max-width: 835px){
-    .description {
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 0px;
-    }
-    footer{
-        margin-top: 70px;
-        height : 180px;
-       
-    }
-    .History-pets{
-        padding-right: 10px;
-    }
-}
-@media(max-width:825px){
-    #main-nav ul{
-        width:600px;
-    }
-    .logo{
-       
-        height:50px ;
-    }
-}
-
-}
-@media(max-width:650px){
-    #main-nav ul{
-        width:500px;
-       
-    }
-    .logo{
-        width: 120px;
-        height: 40px;
-    }
-  
-    #main-nav ul button{
-        padding: 10px 85px;
-        font-size: 18px;
-    }
-    #main-ul li a{
-        font-size: 18px;
-    }
-    .status-text h1{
-        font-size: 47px;
-        max-width: 590px;
-    }
-    .i-lost-pet {
-        max-width: 250px;
-        padding: 15px 60px;
-        font-size: 14px;
-        
-    }
-    #main-nav{
-        margin-top: 20px;
-        margin: auto;
-    }
-    #flex-wrapper{
-        margin-bottom: 50px;
-    }
-    footer{
-        width : 700px;
-       }
-       .History-pets {
-        background-color: #00CB20;
-        font-weight: 600;
-        color: #fff;
-        height: 136px;
-        width: 510px;
-        border-radius: 10px;
-        margin-bottom: 70px;
-        font-size: 38px;
-        padding-left: 30px;}
-}
-
-@media(max-width:568px){
-    .status-text h1{
-        font-size: 42px;
-        max-width: 490px;
-    }
-    #main-nav ul button{
-        padding: 8px 80px;
-        font-size: 16px;
-    }
-    #main-ul li a{
-        font-size: 16px;
-    }
-    #main-nav ul{
-        width:460px;
-       
-    }
-    header{
-        margin-bottom: 40px;
-    }
-    .logo{
-      
-        height: 35px;
-    }
-    .description {
-        display: flex;
-        flex-wrap: wrap;
-         margin-left: 0px;
-}
-@media(max-width:500px){
-    .status-text h1{
-        font-size: 39px;
-        max-width: 450px;
-    }
-    #main-nav ul button{
-        padding: 7px 70px;
-        font-size: 14px;
-    }
-    #main-ul li a{
-        font-size: 14px;
-    }
-    #main-nav ul{
-        width:400px;
-       
-    }
-}
-@media(max-width:460px){
-    .status-text h1{
-        font-size: 35px;
-        max-width: 400px;
-    }
-    #main-nav ul{
-        width:385px;
-       
-    }
-    #main-nav ul button{
-        padding: 6px 60px;
-        font-size: 12px;
-    }
-    #main-ul li a{
-        font-size: 12px;
-    }
-    .logo{
-        
-        height: 35px;
-        margin-bottom: 10px;
-    }
-}
-@media(max-width:425px){
-    .status-text h1{
-        font-size: 32px;
-        max-width: 380px;
-    }
-    #main-nav ul{
-        width:370px;
-       
-    }
-    .description-about-pets-and-people {
-        width: 60px;
-        height: 91px;
-        font-size: 8px;
-        font-weight: 400;
-    }
-        .name-pets-and-people {
-            width: 83px;
-            height: 31px;
+@media(max-width: 1260px) {
+        .nice-footer {
+            padding-top: 50px;
+            color: #fff;
+            display: flex;
+            font-size: 12px;
+            font-weight: 400;
+        }
+        .data-name {
+            margin-top: 50px;
+            color: #fff;
+            text-align: left;
             font-size: 10px;
+        }
+        .navi a {
+            font-weight: 400;
+            text-decoration: none;
+            color: #fff;
+        }
+        .telephone {
+            margin-right: 300px;
+            width: 150px;
+        }
+        .navi {
+            margin-right: 300px;
+        }
+        .telephone a {
+            text-decoration: none;
+            color: #fff;
+        }
+        .history-pets{
+       
+            padding-bottom: 18px;
+            
+            
+            
+            padding-top: 22px;
+            padding-left: 20px;
+        
+            margin-bottom: 80px;
+            font-size: 50px;
+            
+        }
+    }
+@media(max-width:1240px){
+    .info-about-pets{
+        max-width: 200px;
+    }
+    .full{
+        width: 400px;
+        height: 250px;
+        /* flex-wrap: nowrap; */
+    }
+    .name-pets-and-people{
+        width: 150px;
+        height: 34px;
+        font-size: 15px;
+        font-weight: 600;
+
+    }
+    .description-about-pets-and-people{
+        width: 100px;
+        height: 125px;
+        font-size: 12px;
+        font-weight: 400px;
+
+    }
+    .data-grey{
+     
+        color: rgba(0, 0, 0, 0.6);
+        font-size: 10px;
+        font-size: 'Open Sans', 'sans-serif';
+        font-weight: 400;
+        
+    }
+    .man-and-dog{
+        padding-left: 23px;
+        padding-bottom: 23px;
+        width: 190px;
+        margin-right: 0px;
+
+    }
+   
+}    
+@media(max-width: 1040px) {
+        .nice-footer {
+            padding-top: 50px;
+            color: #fff;
+            display: flex;
+            font-size: 10px;
+            font-weight: 400;
+        }
+        .navi {
+            margin-right: 150px;
+        }
+        .telephone {
+            margin-right: 150px;
+            width: 150px;
+        }
+        .full {
+            margin-right: 28px;
+            width: 346px;
+            margin-bottom: 28px;
+        }
+        .name-pets-and-people {
+            font-size: 12px;
+            
+        }
+        .description-about-pets-and-people {
+            width: 90px;
+            height: 88px;
+            font-size: 10px;
+            font-weight: 400;
+        }
+        .man-and-dog {
+            width: 165px;
+            
+        }
+    }
+@media(max-width:970px) {
+        #flex-wrapper {
+            flex-wrap: wrap;
+        }
+        #main-nav ul {
+            width: 550px;
+        }
+        #main-nav ul button {
+            padding: 15px 100px;
+            font-size: 18px;
+        }
+        #main-ul li a {
+            font-size: 19px;
+        }
+    }
+@media(max-width: 901px) {
+        .description-about-pets-and-people {
+            width: 80px;
+            height: 91px;
+            font-size: 9px;
+            font-weight: 400;
+        }
+        .name-pets-and-people {
+            width: 103px;
+            height: 31px;
+            font-size: 11px;
             font-weight: 600;
         }
-        .data-grey {
-            padding-top: 20px;
-            color: rgba(0, 0, 0, 0.6);
-            font-size: 9px;
-            font-family: 'Open Sans', sans-serif;
-            font-weight: 400;
-}
-.man-and-dog {
-    width: 120px;
-}
-@media(max-width:400px){
-    #main-nav ul{
-        width:345px;
-       
-    }
-    #main-nav ul button{
-        padding: 6px 55px;
-        font-size: 12px;
-    }
-    .i-lost-pet {
-        max-width: 200px;
-        padding: 13px 45px;
-        font-size: 12px;
-        margin-top: 18px;
+        .man-and-dog {
+            width: 160px;
+        }
+        .full {
+            margin-right: 28px;
+            width: 284px;
+            margin-bottom: 28px;
+            height: 260px;
+        }
+        .history-pets {
         
+       
+            padding-bottom: 14px;
+                
+                
+                
+            padding-top: 12px;
+            padding-left: 11px;
+            
+            
+            
+            margin-bottom: 70px;
+            font-size: 44px;
+            
+        }
     }
-    .status-text h1{
-        font-size: 29px;
-        max-width: 350px;
+    @media(max-width:865px) {
+        #main-nav ul {
+            width: 525px;
+        }
+        #main-nav ul button {
+            padding: 13px 95px;
+            font-size: 18px;
+        }
+        #main-ul li a {
+            font-size: 18px;
+        }
+        .status-text h1 {
+            font-size: 54px;
+            max-width: 625px;
+        }
+        .i-lost-pet {
+            max-width: 309px;
+            padding: 20px 80px;
+            font-size: 16px;
+        }
     }
-    #flex-wrapper{
-        margin-bottom: 35px;
+    @media(max-width: 835px) {
+        .description {
+            display: flex;
+            flex-wrap: wrap;
+            margin-left: 150px;
+        }
+        footer {
+            margin-top: 70px;
+            height: 180px;
+        }
+        .history-pets {
+            padding-right: 10px;
+           
+            
+        }
     }
+    @media(max-width:825px) {
+        #main-nav ul {
+            width: 600px;
+        }
+        .logo {
+            height: 50px;
+        }
+    }
+    @media(max-width:650px) {
+        #main-nav ul {
+            width: 500px;
+        }
+        .logo {
+            width: 120px;
+            height: 40px;
+        }
+        #main-nav ul button {
+            padding: 10px 85px;
+            font-size: 18px;
+        }
+        #main-ul li a {
+            font-size: 18px;
+        }
+        .status-text h1 {
+            font-size: 47px;
+            max-width: 590px;
+        }
+        .i-lost-pet {
+            max-width: 250px;
+            padding: 15px 60px;
+            font-size: 14px;
+        }
+        #main-nav {
+            margin-top: 20px;
+            margin: auto;
+        }
+        #flex-wrapper {
+            margin-bottom: 50px;
+        }
+        footer {
+            max-width: 700px;
+        }
+        .history-pets {
+           
+           
+           border-radius: 10px;
+           margin-bottom: 70px;
+           font-size: 38px;
+           padding-left: 30px;
+        }
+        .man-and-dog{
+            padding-left: 23px;
+            padding-top: 23px;
+            padding-bottom: 23px;
+            width: 230px;
+            height: 260px;
+            margin-right: 23px;
+            border-radius: 48px;
+        }
+        .full{
+            margin-right: 28px;
+            width: 400px;
+            margin-bottom: 28px;
+            height: 260px;
+        }
 }
-@media(max-width:370px){
-    #main-nav ul{
-        width:320px;
+    @media (max-width: 576px) {
+        .modal-dialog {
+            max-width: 700px;
+        }
+    }
+    @media(max-width:568px) {
+        .status-text h1 {
+            font-size: 42px;
+            max-width: 490px;
+        }
+        #main-nav ul button {
+            padding: 8px 80px;
+            font-size: 16px;
+        }
+        #main-ul li a {
+            font-size: 16px;
+        }
+        #main-nav ul {
+            width: 460px;
+        }
+        header {
+            margin-bottom: 40px;
+        }
+        .logo {
+            height: 35px;
+        }
        
     }
-    #main-nav ul button{
-      
-        font-size: 11px;
+    @media(max-width:500px) {
+        .status-text h1 {
+            font-size: 39px;
+            max-width: 450px;
+        }
+        #main-nav ul button {
+            padding: 7px 70px;
+            font-size: 14px;
+        }
+        #main-ul li a {
+            font-size: 14px;
+        }
+        #main-nav ul {
+            width: 400px;
+        }
     }
-    #main-ul li a{
-        font-size: 11px;
+    @media(max-width:460px) {
+        .status-text h1 {
+            font-size: 35px;
+            max-width: 400px;
+        }
+        #main-nav ul {
+            width: 385px;
+        }
+        #main-nav ul button {
+            padding: 6px 60px;
+            font-size: 12px;
+        }
+        #main-ul li a {
+            font-size: 12px;
+        }
+        .logo {
+            height: 35px;
+            margin-bottom: 10px;
+        }
     }
-    .status-text h1{
-        font-size: 26px;
-        max-width: 325px;
-    }
-    .i-lost-pet {
-        max-width: 180px;
-        padding: 12px 35px;
-        font-size: 11px;
-        margin-top: 18px;
-    }
-}
-
-@media(max-width:345px){
-    #main-nav ul{
-        width:300px;
+    @media(max-width:425px) {
+        .status-text h1 {
+            font-size: 32px;
+            max-width: 380px;
+        }
+        #main-nav ul {
+            width: 370px;
+        }
+       
        
     }
-    #main-nav ul button{
-        padding: 5px 50px;
-        font-size: 10px;
+    @media(max-width:400px) {
+        #main-nav ul {
+            width: 345px;
+        }
+        #main-nav ul button {
+            padding: 6px 55px;
+            font-size: 12px;
+        }
+        .i-lost-pet {
+            max-width: 200px;
+            padding: 13px 45px;
+            font-size: 12px;
+            margin-top: 18px;
+        }
+        .status-text h1 {
+            font-size: 29px;
+            max-width: 350px;
+        }
+        #flex-wrapper {
+            margin-bottom: 35px;
+        }
     }
-    #main-ul li a{
-        font-size: 10px;
+    @media(max-width:370px) {
+        #main-nav ul {
+            width: 320px;
+        }
+        #main-nav ul button {
+            font-size: 11px;
+        }
+        #main-ul li a {
+            font-size: 11px;
+        }
+        .status-text h1 {
+            font-size: 26px;
+            max-width: 325px;
+        }
+        .i-lost-pet {
+            max-width: 180px;
+            padding: 12px 35px;
+            font-size: 11px;
+            margin-top: 18px;
+        }
     }
-    #flex-wrapper{
-        margin-bottom: 25px;
+    @media(max-width:345px) {
+        #main-nav ul {
+            width: 300px;
+        }
+        #main-nav ul button {
+            padding: 5px 50px;
+            font-size: 10px;
+        }
+        #main-ul li a {
+            font-size: 10px;
+        }
+        #flex-wrapper {
+            margin-bottom: 25px;
+        }
     }
-}
