@@ -664,8 +664,7 @@ footer {
     
    
         padding-bottom: 14px;
-            
-        max-width: 500px;   
+  
             
         padding-top: 12px;
         padding-left: 15px;
@@ -755,9 +754,6 @@ footer {
     }
     #company-info .company-about p{
         font-size: 25px;
-    }
-    #company-info .company-img{
-        margin-right: 40px;
     }
     
 }
