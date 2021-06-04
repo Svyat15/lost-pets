@@ -615,6 +615,11 @@ footer {
         margin-top: 70px;
         height: 200px;
     }
+    
+    .description{
+    justify-content: center;
+    
+    }
 }
 @media(max-width:1024px){
     
