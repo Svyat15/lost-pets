@@ -20,6 +20,7 @@
     font-size: 35px;
     text-align: center;
     padding: 10px 0 10px 0;
+    margin-bottom: 35px;
 }
 
  .company-img {
@@ -289,26 +290,25 @@ body {
 
 .status-text h1 {
     max-width: 706px;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.8);
     margin: 0;
     padding: 0;
     line-height: 100%;
-    margin-bottom: 22px;
+    margin-bottom: 35px;
 }
 
 .i-lost-pet {
     background: none;
-    font-size: 20px;
+    font-size: 30px;
     color: white;
     background-color: #00CB20;
     padding: 23px 99px;
     cursor: pointer;
     border: none;
     border-radius: 10px;
-    max-width: 409px;
-    display: block;
+    display: inline-block;
 }
 .status-text button:focus {
     border: none;
@@ -323,7 +323,7 @@ body {
 }
 
 .status-text {
-    padding-top: 107px;
+    padding-top: 80px;
 }
 
 #lost-pet-blocks {
