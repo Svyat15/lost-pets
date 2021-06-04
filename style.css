@@ -721,8 +721,14 @@ footer {
     .logo {
         height: 50px;
     }
+    
+    
 }
 @media(max-width:768px){
+    
+    .company-info{
+    text-align: center;
+    }
    
     #request .animal-img img{
         margin-left: 20px;
