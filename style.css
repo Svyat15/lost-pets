@@ -726,7 +726,7 @@ footer {
 }
 @media(max-width:768px){
     
-    .company-info{
+    #company-info{
     text-align: center;
     }
    
