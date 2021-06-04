@@ -999,6 +999,10 @@ footer {
         font-size: 12px;
         padding: 5px 60px 5px 60px;
     }
+     #flex-wrapper {
+       justify-content: center;
+    }
+           
 }
 @media(max-width:400px) {
     main-ul {
@@ -1020,7 +1024,6 @@ footer {
     }
     #flex-wrapper {
         margin-bottom: 35px;
-        justify-content: center;
     }
     
 }
