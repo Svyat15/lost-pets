@@ -324,6 +324,7 @@ body {
 
 .status-text {
     padding-top: 80px;
+    text-align: center;
 }
 
 #lost-pet-blocks {
@@ -475,13 +476,12 @@ body {
     background-color: #00CB20;
     font-weight: 600;
     color: #fff;
-   
-    max-width: 770px;
+    max-width: 640px;
     padding-bottom: 20px;
     border-radius: 10px;
     margin-bottom: 98px;
-    font-size: 50px;
-    padding-top: 28px;
+    font-size: 30px;
+    padding-top: 20px;
     padding-left: 26px;
 }
 
