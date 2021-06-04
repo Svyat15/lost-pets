@@ -729,6 +729,12 @@ footer {
     #company-info{
     text-align: center;
     }
+    
+    #company h2{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
    
     #request .animal-img img{
         margin-left: 20px;
