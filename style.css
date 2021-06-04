@@ -324,7 +324,6 @@ body {
 
 .status-text {
     padding-top: 80px;
-    text-align: center;
 }
 
 #lost-pet-blocks {
@@ -573,6 +572,11 @@ footer {
     .status-block {
         background-image: none;
         height: 100%;
+
+    }
+    
+    .status-text{
+    text-align: center;
     }
     .status-text h1 {
         margin: auto;
